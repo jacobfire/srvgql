@@ -1,0 +1,11 @@
+app:
+  name: "GraphQL Test"
+  debug: true
+  port: "8080"
+  host: "localhost"
+  service: "http"
+  context:
+    timeout: 2
+databases:
+  postgres:
+    connection: "postgres://selectel:selectel@127.0.0.1:5432/selectel?sslmode=disable"
